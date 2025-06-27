@@ -1,0 +1,53 @@
+/* app/styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7fc;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .login-container,
+  .dashboard-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .login-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+  }
+  
+  .dashboard-container {
+    margin-top: 20px;
+  }
+  
+  .dashboard-container h2 {
+    color: #4caf50;
+  }
+  
